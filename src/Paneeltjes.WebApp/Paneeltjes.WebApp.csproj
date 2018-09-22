@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>aspnet-Paneeltjes.WebApp-6536A431-ED67-41CC-8F18-E86B90B7EBED</UserSecretsId>
+    <TypeScriptToolsVersion>3.0</TypeScriptToolsVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\js\main.ts" />
+    <Content Remove="wwwroot\js\panel\andGate.ts" />
+    <Content Remove="wwwroot\js\panel\connector.ts" />
+    <Content Remove="wwwroot\js\panel\decisionPanel.ts" />
+    <Content Remove="wwwroot\js\panel\panel.ts" />
+    <Content Remove="wwwroot\js\panel\pushButton.ts" />
+    <Content Remove="wwwroot\js\panel\signalAction.ts" />
+    <Content Remove="wwwroot\js\panel\signalPath.ts" />
+    <Content Remove="wwwroot\js\workspace.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.4" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Paneeltjes.Data\Paneeltjes.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Identity\Services\" />
+    <Folder Include="Areas\Admin\" />
+    <Folder Include="Areas\Student\" />
+    <Folder Include="Areas\Teacher\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="wwwroot\js\main.ts" />
+    <TypeScriptCompile Include="wwwroot\js\panel\andGate.ts" />
+    <TypeScriptCompile Include="wwwroot\js\panel\connector.ts" />
+    <TypeScriptCompile Include="wwwroot\js\panel\decisionPanel.ts" />
+    <TypeScriptCompile Include="wwwroot\js\panel\panel.ts" />
+    <TypeScriptCompile Include="wwwroot\js\panel\pushButton.ts" />
+    <TypeScriptCompile Include="wwwroot\js\panel\signalAction.ts" />
+    <TypeScriptCompile Include="wwwroot\js\panel\signalPath.ts" />
+    <TypeScriptCompile Include="wwwroot\js\panel\workspace.ts" />
+  </ItemGroup>
+
+</Project>

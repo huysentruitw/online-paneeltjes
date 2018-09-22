@@ -1,0 +1,45 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Welkom";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="row">
+    <div class="col-md-12 text-justify">
+        <p>De Online Paneeltjes is bedoeld als educatief hulpmiddel bij de lessen informatietechnologie (voor leerlingen tussen 12 en 14 jaar). Leerlingen maken er oefeningen op virtuele paneeltjes door verbindingen te maken en kunnen deze oplossing voorleggen aan de leerkracht. Met behulp van het beslissingspaneel, tellerpaneel en geheugenpaneel kunnen tal van schakelingen gemaakt worden. De schakelingen kunnen tijdens het opbouwen uitgetest worden.</p>
+        <p>Hieronder zie je een statische weergave van de beschikbare paneeltjes.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <img src="~/images/panel_decision.gif" class="img-fluid shadow pnl-image" />
+    </div>
+    <div class="col-md-4">
+        <img src="~/images/panel_counter.gif" class="img-fluid shadow pnl-image" />
+    </div>
+    <div class="col-md-4">
+        <img src="~/images/panel_memory.gif" class="img-fluid shadow pnl-image" />
+    </div>
+</div>
+
+<div class="row pnl-info">
+    <div class="col-md-4 text-justify">
+        <h4>Individuele begeleiding</h4>
+        <p>Leerlingen kunnen er oefenen of opdrachten oplossen die door de leerktracht werden ingevoerd. Gemaakte schakelingen worden per student bijgehouden waardoor de leerkracht deze individueel kan beoordelen.</p>
+        <p>Opdrachten worden per leerling of aan een volledige groep toegewezen.</p>
+    </div>
+
+    <div class="col-md-4 text-justify">
+        <h4>Paneelopstellingen</h4>
+        <p>Een opstelling bestaat uit een combinatie van bovenvermelde paneeltjes. Per opdracht kan de leerkracht de best passende opstelling kiezen zodat het voor de leerling duidelijk is welke paneeltjes al dan niet gebruikt mogen worden in hun oplossing.</p>
+    </div>
+
+    <div class="col-md-4 text-justify">
+        <h4>Registratie</h4>
+        <p>De registratie voor leerkrachten bedraagt &euro; 3,99 en blijft geldig tot het einde van het schooljaar.</p>
+        <p>De registratie voor leerlingen is gratis. Leerlingen dienen wel in het bezit te zijn van een groepscode die wordt meegedeeld door de leerkracht.</p>
+    </div>
+</div>

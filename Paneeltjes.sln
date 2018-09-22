@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Host", "01 Host", "{7218C2AF-F408-4543-A6F1-E1A17683B8E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paneeltjes.WebApp", "src\Paneeltjes.WebApp\Paneeltjes.WebApp.csproj", "{9C0A72FE-7B55-4765-BEC1-DD27AE2C5F31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Data", "03 Data", "{7F16FC9C-5F7D-473B-BDB9-180A0A121BAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paneeltjes.Data", "src\Paneeltjes.Data\Paneeltjes.Data.csproj", "{B3F74A69-F480-45FE-A6DD-5D9ED669B8DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0925E4AA-196B-4FCC-9ACC-376FFAA92932}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C0A72FE-7B55-4765-BEC1-DD27AE2C5F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0A72FE-7B55-4765-BEC1-DD27AE2C5F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0A72FE-7B55-4765-BEC1-DD27AE2C5F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0A72FE-7B55-4765-BEC1-DD27AE2C5F31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3F74A69-F480-45FE-A6DD-5D9ED669B8DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3F74A69-F480-45FE-A6DD-5D9ED669B8DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3F74A69-F480-45FE-A6DD-5D9ED669B8DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3F74A69-F480-45FE-A6DD-5D9ED669B8DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C0A72FE-7B55-4765-BEC1-DD27AE2C5F31} = {7218C2AF-F408-4543-A6F1-E1A17683B8E1}
+		{B3F74A69-F480-45FE-A6DD-5D9ED669B8DC} = {7F16FC9C-5F7D-473B-BDB9-180A0A121BAE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5616010C-D85E-456E-B80C-BC264A66085F}
+	EndGlobalSection
+EndGlobal

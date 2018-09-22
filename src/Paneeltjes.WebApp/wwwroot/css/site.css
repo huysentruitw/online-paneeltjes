@@ -1,0 +1,24 @@
+﻿.pnl-navbar {
+    background-color: #0072AE;
+    box-shadow: rgba(0,0,0,0.5) 0px 0px 10px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+hr {
+    box-shadow: rgba(0,0,0,0.1) 0px 0px 5px;
+}
+
+input {
+    box-shadow: rgba(0,0,0,0.1) 0px 0px 5px;
+}
+
+.pnl-image {
+    margin-bottom: 20px;
+}
+
+.pnl-info {
+    margin-top: 30px;
+}
